@@ -37,7 +37,7 @@ li{
 
 a{
   text-decoration: none;
-  color: inherit; 
+  color: inherit;
 }
 
 img{
@@ -60,20 +60,24 @@ img{
 ul.question{
 }
 
-ul.reponse{
+ol.reponse{
   background-color: #e4be9e;
   display: flex;
   flex-direction: column;
 }
 
 ul.question > li{
-  border: 1px;
+
+  border-width: 2px;
+  border-style: solid;
   background-color: #d0e1d4;
+  margin-bottom: 4px;
 }
 
-ul.reponse > li{
-  text-align-last: right;
+ol.reponse > li{
   word-wrap: break-word;
+  line-height: 20px;
+
 }
 
 .photo{
