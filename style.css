@@ -6,12 +6,13 @@
 
 */
 
-
-body{
+body {
+  width: 100%;
+  height: auto;
   background-image: url("images/working.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-attachment: fixed;
 }
 
 h1{
@@ -55,6 +56,10 @@ a{
 
 img{
 
+}
+
+ol.reponse > li{
+  margin-bottom: 10px;
 }
 .contenu-index{
 
