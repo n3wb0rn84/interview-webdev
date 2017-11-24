@@ -72,7 +72,15 @@ ol.reponse > li{
 
 .questionnaire > h3{
   align-self: center;
-  text-decoration: underline;
+  background-color: #71697a;
+  color: #f2f6d0;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.questionnaire > ul{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
 }
 
 ul.question{
