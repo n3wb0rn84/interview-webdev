@@ -17,15 +17,15 @@ body {
 }
 
 h1{
-
+  font-family: 'Oswald', sans-serif;
 }
 
 h3{
-
+  font-family: 'Oswald', sans-serif;
 }
 
 h4{
-
+  font-family: 'Oswald', sans-serif;
 }
 
 nav{
@@ -89,16 +89,17 @@ ul.question{
 }
 
 ol.reponse{
-  background-color: #e4be9e;
+  background-color: #B2B13B;
+  color:black;
   display: flex;
   flex-direction: column;
 }
 
 ul.question > li{
 
-  border-width: 2px;
-  border-style: solid;
-  background-color: #d0e1d4;
+  border-width: 2px solid black;
+  background-color: #71697a;
+  color: white;
   margin-bottom: 4px;
 }
 
