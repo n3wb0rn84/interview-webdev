@@ -1,0 +1,60 @@
+
+$title-font: 'Oswald', sans-serif;
+$title-color: #f2f6d0;
+$title-bkg: #71697a;
+$text-font: 'Open Sans Condensed', sans-serif;
+
+body {
+  width: 100%;
+  height: 100%;
+  background: {
+    image: url("assets/images/working.jpg");
+    repeat: no-repeat;
+    size: cover;
+    attachment: fixed;
+  }
+}
+
+h1{
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  background-color: $title-bkg;
+  color: $title-color;
+  padding: 1rem;
+}
+h2{
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  background-color: $title-bkg;
+  color: $title-color;
+  padding: 1rem;
+}
+
+h3{
+  font-family: 'Oswald', sans-serif;
+  background-color: $title-bkg;
+  color: $title-color;
+  padding: 1rem;
+}
+
+nav{
+  ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  width: 100%;
+  height: 30px;
+  background-color: $title-bkg;
+  color: $title-color;
+  font-family: $title-font;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
