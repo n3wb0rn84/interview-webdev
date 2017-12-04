@@ -3,12 +3,13 @@ $title-font: 'Oswald', sans-serif;
 $title-color: #f2f6d0;
 $title-bkg: #71697a;
 $text-font: 'Open Sans Condensed', sans-serif;
+$bkg-img: "../../assets/images/working.jpg";
 
 body {
   width: 100%;
   height: 100%;
   background: {
-    image: url("assets/images/working.jpg");
+    image: url($bkg-img);
     repeat: no-repeat;
     size: cover;
     attachment: fixed;

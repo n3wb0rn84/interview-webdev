@@ -15,28 +15,25 @@ section.welcome{
   align-items: center;
   font-family: $text-font;
   padding-top:1rem;
+  > img{
+    align-self: flex-end;
+    margin-top: -175px;
+  }
+  > #phaccueil{
+    align-self: center;
+    margin-top: 0;
+  }
+  > p{
+    background-color: $title-bkg;
+    color: $title-color;
+    max-width: 500px;
+    margin: 0;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 16px;
+  }
 }
 
-section.welcome > img{
-  align-self: flex-end;
-  margin-top: -175px;
-}
-
-section.welcome > #phaccueil{
-  align-self: center;
-  margin-top: 0;
-
-}
-
-section.welcome > p{
-  background-color: $title-bkg;
-  color: $title-color;
-  max-width: 500px;
-  margin: 0;
-  font-weight: bold;
-  padding: 1rem;
-  font-size: 16px;
-}
 
 .texte{
   display: flex;
@@ -45,16 +42,15 @@ section.welcome > p{
   padding-top:2rem;
   flex-direction: column;
   width:66%;
-}
-.texte p{
-  background-color: $title-bkg;
-  color: $title-color;
-  max-width: 500px;
-  margin: 0;
-  font-weight: bold;
-  padding: 1rem;
-  font-size: 16px;
-
+  p{
+    background-color: $title-bkg;
+    color: $title-color;
+    max-width: 500px;
+    margin: 0;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 16px;
+  }
 }
 
 .picture{
